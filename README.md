@@ -12,9 +12,9 @@ A modular Debian platform designed around:
 
 - Stability
 - Usability
-- Gaming compatibility
+- Modern gaming compatibility
 - Hardware diagnostics
-- User control
+- User control&friendly experience
 
 ## Current Status
 
@@ -32,3 +32,22 @@ A modular Debian platform designed around:
 Install it.
 Understand it.
 Master it.
+
+## First Edition
+
+### MzOS Gaming
+
+Target:
+
+- KDE Plasma desktop
+- Gaming optimized environment
+- Steam compatibility
+- Proton support
+- Hardware Health Check
+
+## Project Principles
+
+- Stability before experimentation
+- Documentation before automation
+- Reproducibility before convenience
+- Compatibility before optimization
