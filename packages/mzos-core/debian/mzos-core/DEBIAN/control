@@ -1,0 +1,11 @@
+Package: mzos-core
+Version: 0.1.0
+Architecture: all
+Maintainer: MzOS Team <w.oname.rss@gmail.com>
+Installed-Size: 9
+Depends: bash
+Section: utils
+Priority: optional
+Homepage: https://github.com/woname999/MzOS
+Description: Core system components for MzOS
+ MzOS core package providing the main command line interface.

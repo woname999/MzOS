@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+VERSION="0.1.0-dev"
+EDITION="Gaming"
+
+show_version() {
+    echo "MzOS ${EDITION} Edition"
+    echo "Version : ${VERSION}"
+    echo
+    echo "Status  : Development"
+}
+
+case "${1:-version}" in
+    version)
+        show_version
+        ;;
+    *)
+        echo "Usage: mzos version"
+        exit 1
+        ;;
+esac

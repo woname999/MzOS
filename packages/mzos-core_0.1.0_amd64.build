@@ -1,0 +1,65 @@
+ dpkg-buildpackage -us -uc -ui clean
+dpkg-buildpackage: info: paquet source mzos-core
+dpkg-buildpackage: info: version source 0.1.0
+dpkg-buildpackage: info: distribution source unstable
+dpkg-buildpackage: info: source changé par MzOS Team <w.oname.rss@gmail.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: architecture hôte amd64
+ debian/rules clean
+dh clean
+   debian/rules override_dh_auto_clean
+make[1] : on entre dans le répertoire « /home/test/MzOS/packages/mzos-core »
+No clean required for mzos-core
+make[1] : on quitte le répertoire « /home/test/MzOS/packages/mzos-core »
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: utilisation du format source « 3.0 (native) »
+dpkg-source: info: construction de mzos-core dans mzos-core_0.1.0.tar.xz
+dpkg-source: info: construction de mzos-core dans mzos-core_0.1.0.dsc
+ debian/rules binary
+dh binary
+   dh_update_autotools_config
+   dh_autoreconf
+   dh_auto_configure
+   debian/rules override_dh_auto_build
+make[1] : on entre dans le répertoire « /home/test/MzOS/packages/mzos-core »
+No build required for mzos-core
+make[1] : on quitte le répertoire « /home/test/MzOS/packages/mzos-core »
+   dh_auto_test
+   create-stamp debian/debhelper-build-stamp
+   dh_prep
+   dh_auto_install --destdir=debian/mzos-core/
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: construction du paquet « mzos-core » dans « ../mzos-core_0.1.0_all.deb ».
+ dpkg-genbuildinfo -O../mzos-core_0.1.0_amd64.buildinfo
+ dpkg-genchanges -O../mzos-core_0.1.0_amd64.changes
+dpkg-genchanges: info: inclusion du code source original dans l'envoi (« upload »)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: envoi complet ; paquet Debian natif (inclusion du code source complet)
+Now running lintian mzos-core_0.1.0_amd64.changes ...
+E: mzos-core: depends-on-essential-package-without-using-version Depends: bash
+E: mzos-core: no-copyright-file
+W: mzos-core source: debhelper-but-no-misc-depends mzos-core
+W: mzos-core: debian-changelog-has-wrong-day-of-week 2026-07-17 was a Friday [usr/share/doc/mzos-core/changelog.gz:1]
+W: mzos-core source: no-debian-copyright-in-source
+W: mzos-core: no-manual-page [usr/bin/mzos]
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc mzos-core_0.1.0.dsc MzOS Team <w.oname.rss@gmail.com>
+gpg: répertoire « /home/test/.gnupg » créé
+gpg: le trousseau local « /home/test/.gnupg/pubring.kbx » a été créé
+gpg: « MzOS Team <w.oname.rss@gmail.com> » a été ignorée : Pas de clef secrète
+gpg: /tmp/debsign.WSa2BYze/mzos-core_0.1.0.dsc: clear-sign failed: Pas de clef secrète
+debsign: gpg error occurred!  Aborting....

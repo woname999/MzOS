@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	@echo "No build required for mzos-core"
+
+override_dh_auto_clean:
+	@echo "No clean required for mzos-core"

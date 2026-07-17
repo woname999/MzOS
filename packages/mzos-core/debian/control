@@ -1,0 +1,13 @@
+Source: mzos-core
+Section: utils
+Priority: optional
+Maintainer: MzOS Team <w.oname.rss@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://github.com/woname999/MzOS
+
+Package: mzos-core
+Architecture: all
+Depends: bash
+Description: Core system components for MzOS
+ MzOS core package providing the main command line interface.
