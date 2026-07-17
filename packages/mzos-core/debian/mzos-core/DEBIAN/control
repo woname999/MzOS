@@ -2,7 +2,7 @@ Package: mzos-core
 Version: 0.1.0
 Architecture: all
 Maintainer: MzOS Team <w.oname.rss@gmail.com>
-Installed-Size: 9
+Installed-Size: 10
 Depends: bash
 Section: utils
 Priority: optional

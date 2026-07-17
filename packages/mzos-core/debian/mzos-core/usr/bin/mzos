@@ -10,12 +10,74 @@ show_version() {
     echo "Status  : Development"
 }
 
-case "${1:-version}" in
+show_info() {
+    echo "MzOS System Information"
+    echo
+    echo "Edition : ${EDITION}"
+    echo "Version : ${VERSION}"
+    echo "Base    : Debian 13 (Trixie)"
+    echo "Desktop : KDE Plasma"
+}
+
+show_health() {
+    echo "MzOS Health Check"
+    echo
+    echo "Status : Not implemented"
+}
+
+show_install() {
+    echo "MzOS Package Installer"
+    echo
+    echo "Status : Not implemented"
+}
+
+show_update() {
+    echo "MzOS Update System"
+    echo
+    echo "Status : Not implemented"
+}
+
+show_help() {
+    echo "MzOS command line interface"
+    echo
+    echo "Usage:"
+    echo "  mzos version   Show version"
+    echo "  mzos info      Show system information"
+    echo "  mzos health    Run health check"
+    echo "  mzos install   Install component"
+    echo "  mzos update    Update system"
+    echo "  mzos help      Show help"
+}
+
+case "${1}" in
     version)
         show_version
         ;;
+
+    info)
+        show_info
+        ;;
+
+    health)
+        show_health
+        ;;
+
+    install)
+        show_install
+        ;;
+
+    update)
+        show_update
+        ;;
+
+    help|"")
+        show_help
+        ;;
+
     *)
-        echo "Usage: mzos version"
+        echo "Unknown command: $1"
+        echo
+        show_help
         exit 1
         ;;
 esac

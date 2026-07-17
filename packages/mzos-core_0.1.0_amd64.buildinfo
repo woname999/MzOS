@@ -4,17 +4,17 @@ Binary: mzos-core
 Architecture: all source
 Version: 0.1.0
 Checksums-Md5:
- bf0aacfcae337865b0e19f8d628424fd 561 mzos-core_0.1.0.dsc
- 35b7a16153836104f76261a137a229eb 1380 mzos-core_0.1.0_all.deb
+ 33a15c6a96303791c38d609cd0f70da7 564 mzos-core_0.1.0.dsc
+ da86030783afc2a57ee5de40edd6e123 1664 mzos-core_0.1.0_all.deb
 Checksums-Sha1:
- 0e4c36b28d6098360bae487a28fddcd160a34cd0 561 mzos-core_0.1.0.dsc
- d34f0593fe223529dbfab3c62687b4edfee98d71 1380 mzos-core_0.1.0_all.deb
+ 6dcef8da6928dca00dfc869e06f248a65822e9ad 564 mzos-core_0.1.0.dsc
+ ab3081c74da29e0c81cd8c7f9da3882620fb21bd 1664 mzos-core_0.1.0_all.deb
 Checksums-Sha256:
- d4628be44c3b6722fa5113b81f1ab64045cca4c4d930efefc3e26b9424cb3275 561 mzos-core_0.1.0.dsc
- d8dd971dfca3da2be26b909fe6474f06486af8bba4ca6239246d2fdc5ea289f9 1380 mzos-core_0.1.0_all.deb
+ f3c85754efff4de3035fbbee94b77bdc110050d8f88af16a06d40d0fa448a3b3 564 mzos-core_0.1.0.dsc
+ d18b16432e24be531f53a9e90bb7fd118804f140452ebe26b1512782589d8982 1664 mzos-core_0.1.0_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 17 Jul 2026 18:42:41 +0200
+Build-Date: Fri, 17 Jul 2026 19:48:03 +0200
 Installed-Build-Depends:
  autoconf (= 2.72-3.1),
  automake (= 1:1.17-4),
