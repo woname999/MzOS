@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Fri, 17 Jul 2026 18:00:00 +0200
+Source: mzos-health
+Binary: mzos-health
+Architecture: source all
+Version: 0.1.0
+Distribution: unstable
+Urgency: medium
+Maintainer: MzOS Team <w.oname.rss@gmail.com>
+Changed-By: MzOS Team <w.oname.rss@gmail.com>
+Description:
+ mzos-health - Health Check module for MzOS
+Changes:
+ mzos-health (0.1.0) unstable; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ c7074f9aad4c80627aef85209b219044d6c6dbed 532 mzos-health_0.1.0.dsc
+ 361604761801ea9b5e0eaee6a3eba48637cdcc3c 1272 mzos-health_0.1.0.tar.xz
+ 2730e75be910e42ae116ce232523759750af1477 1684 mzos-health_0.1.0_all.deb
+ 2d616df83cc04099bd2de3e4d5a2895ddb0d8f0a 4777 mzos-health_0.1.0_amd64.buildinfo
+Checksums-Sha256:
+ dbd7df4e1b7138e3309ea04d99a298e89fde9020555dcea554abac5f5be27b8c 532 mzos-health_0.1.0.dsc
+ 6180fb8787b52c51931e4a3041d2969e890bfb2f7aba705b2b7da917c201ec43 1272 mzos-health_0.1.0.tar.xz
+ 29d4eaa39425d0ad0ce0e3bc22d28707d8579455b30302ccdcffb2b198165e09 1684 mzos-health_0.1.0_all.deb
+ e662a526f132bb6ad34a767f12759d73a5a22a73275380b85ff0eb8877530e83 4777 mzos-health_0.1.0_amd64.buildinfo
+Files:
+ 137270049984c31e76cbfef31d95a2a8 532 utils optional mzos-health_0.1.0.dsc
+ 56c1dfbc95120c4f7085878d5603afbd 1272 utils optional mzos-health_0.1.0.tar.xz
+ d36a7d025ecb334459b0a300fbeaf96d 1684 utils optional mzos-health_0.1.0_all.deb
+ e2a66c8134b97289279f626e33dc68bf 4777 utils optional mzos-health_0.1.0_amd64.buildinfo

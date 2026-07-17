@@ -1,0 +1,12 @@
+Source: mzos-health
+Section: utils
+Priority: optional
+Maintainer: MzOS Team <w.oname.rss@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: mzos-health
+Architecture: all
+Depends: ${misc:Depends}
+Description: Health Check module for MzOS
+ Hardware and software diagnostics for MzOS.
