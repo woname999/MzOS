@@ -1,0 +1,3 @@
+./usr/lib/mzos/modules/wine/install.sh
+./usr/lib/mzos/modules/wine/status.sh
+./usr/lib/mzos/modules/wine/uninstall.sh

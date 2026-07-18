@@ -1,0 +1,12 @@
+Source: mzos-wine
+Section: misc
+Priority: optional
+Maintainer: MzOS Team
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: mzos-wine
+Architecture: all
+Depends: ${misc:Depends}
+Description: Wine module for MzOS
+ MzOS module providing Wine installation and management.

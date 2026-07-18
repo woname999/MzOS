@@ -1,0 +1,4 @@
+f1fb7ff29765587290c79f6cff72e06f  usr/lib/mzos/modules/wine/install.sh
+d03468f6697ecfc815f9ad549c1c4e20  usr/lib/mzos/modules/wine/status.sh
+01e2ad42fd8a336bafb69018e9128f94  usr/lib/mzos/modules/wine/uninstall.sh
+a7af31e21d4f823ea59652838fb0f1a7  usr/share/doc/mzos-wine/changelog.gz

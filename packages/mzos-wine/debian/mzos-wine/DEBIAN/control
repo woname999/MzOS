@@ -1,0 +1,9 @@
+Package: mzos-wine
+Version: 0.1.0
+Architecture: all
+Maintainer: MzOS Team
+Installed-Size: 14
+Section: misc
+Priority: optional
+Description: Wine module for MzOS
+ MzOS module providing Wine installation and management.

@@ -4,3 +4,10 @@
 *.deb
 *.dsc
 *.tar.xz
+
+# Debian build directories
+debian/.debhelper/
+debian/files
+debian/*/DEBIAN/
+debian/*.substvars
+debian/debhelper-build-stamp
