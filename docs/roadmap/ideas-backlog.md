@@ -142,3 +142,37 @@ Bénéfice :
 Éviter les installations déclarées réussies alors que le composant n'est pas utilisable.
 
 
+---
+
+# IDÉE-009 — MzOS Gaming Benchmark
+
+Statut : Validé
+
+Objectif :
+Créer un outil permettant de vérifier les capacités gaming d'une machine MzOS.
+
+Informations potentielles :
+
+- CPU
+- RAM
+- GPU
+- pilote graphique
+- version Mesa
+- OpenGL
+- Vulkan
+- Steam installé
+- Proton disponible
+- résultats de tests jeux
+
+Objectif :
+Permettre de répondre rapidement :
+
+"Cette machine est-elle prête pour MzOS Gaming ?"
+
+Évolution possible :
+
+mzos benchmark
+
+ou
+
+mzos gaming-test
