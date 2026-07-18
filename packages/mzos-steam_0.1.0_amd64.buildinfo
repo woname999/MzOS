@@ -4,17 +4,17 @@ Binary: mzos-steam
 Architecture: all source
 Version: 0.1.0
 Checksums-Md5:
- b61d7dca7fb8b1d88db3e128595342b9 526 mzos-steam_0.1.0.dsc
- bec860382244c1c73ea78dd7b90fe9b6 1484 mzos-steam_0.1.0_all.deb
+ 05760d3f1f94375e273ce5f20f5684ff 526 mzos-steam_0.1.0.dsc
+ 37ba115292194736065addbca4b5d209 1892 mzos-steam_0.1.0_all.deb
 Checksums-Sha1:
- ed20eff02e32eaf183063c7c38993bca5316209f 526 mzos-steam_0.1.0.dsc
- f162b0e09ed4b190f4074b0bd653b329c477e918 1484 mzos-steam_0.1.0_all.deb
+ ff2d4616f6cf800a36c2e7b3ea72a0c87a1ca66a 526 mzos-steam_0.1.0.dsc
+ 55c3d3b22d859887dadd246fb4d807b6bb8ac20f 1892 mzos-steam_0.1.0_all.deb
 Checksums-Sha256:
- 7878d329242e37ce8bc0d536a5f2bff3e83614273d41390678fca20c4c725dc5 526 mzos-steam_0.1.0.dsc
- f74312809124f134aa6f5bc70940b029ea59b32ed15e1e4ec95251ab9eace020 1484 mzos-steam_0.1.0_all.deb
+ 648a37813de0f413c46ab02b6428d22cf6f87173b45b491d9857b3c59dfb62f6 526 mzos-steam_0.1.0.dsc
+ f85e30421a1936691b75ab08585b3540400e52b553cbc8335c19e9eeb67e96ef 1892 mzos-steam_0.1.0_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sat, 18 Jul 2026 02:02:11 +0200
+Build-Date: Sat, 18 Jul 2026 12:44:00 +0200
 Installed-Build-Depends:
  autoconf (= 2.72-3.1),
  automake (= 1:1.17-4),

@@ -1,4 +1,4 @@
-920c1a141bb329c57d9003cccbfc6303  usr/lib/mzos/modules/steam/install.sh
-d41d8cd98f00b204e9800998ecf8427e  usr/lib/mzos/modules/steam/status.sh
-d41d8cd98f00b204e9800998ecf8427e  usr/lib/mzos/modules/steam/uninstall.sh
+f9e4f6d0d7392144e730b253731c22f7  usr/lib/mzos/modules/steam/install.sh
+378de402b3354f660d3e81f491ec6707  usr/lib/mzos/modules/steam/status.sh
+49a902d5e27a6885809438f5de7a4fb5  usr/lib/mzos/modules/steam/uninstall.sh
 2bb9a0020aea6e2d582c518d5ba7d8eb  usr/share/doc/mzos-steam/changelog.gz

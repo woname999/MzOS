@@ -7,12 +7,13 @@ echo "      MzOS Steam Installer"
 echo "================================"
 echo
 
-echo "[CHECK]"
-
 if [ "$(id -u)" -ne 0 ]; then
-    echo "This installer must be run as root."
+    echo "Error: installer must run as root."
     exit 1
 fi
+
+
+echo "[CHECK]"
 
 ARCH=$(dpkg --print-architecture)
 
@@ -23,6 +24,44 @@ if [ "$ARCH" != "amd64" ]; then
     exit 1
 fi
 
-echo "System OK."
+
 echo
-echo "Steam installation is not implemented yet."
+echo "[MULTIARCH]"
+
+if dpkg --print-foreign-architectures | grep -q i386; then
+    echo "i386 architecture already enabled."
+else
+    dpkg --add-architecture i386
+    echo "i386 architecture enabled."
+fi
+
+
+echo
+echo "[UPDATE]"
+
+apt update
+
+
+echo
+echo "[INSTALL]"
+
+if dpkg -s steam-installer >/dev/null 2>&1; then
+    echo "Steam already installed."
+else
+    apt install -y steam-installer
+fi
+
+
+echo
+echo "[VERIFY]"
+
+if dpkg -s steam-installer >/dev/null 2>&1; then
+    echo "Steam installation verified."
+else
+    echo "Steam installation failed."
+    exit 1
+fi
+
+
+echo
+echo "Steam installation completed."

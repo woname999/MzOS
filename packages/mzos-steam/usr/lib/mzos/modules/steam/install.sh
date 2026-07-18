@@ -19,7 +19,6 @@ ARCH=$(dpkg --print-architecture)
 
 echo "Architecture : $ARCH"
 
-
 if [ "$ARCH" != "amd64" ]; then
     echo "Unsupported architecture."
     exit 1
@@ -29,9 +28,12 @@ fi
 echo
 echo "[MULTIARCH]"
 
-dpkg --add-architecture i386
-
-echo "i386 architecture enabled."
+if dpkg --print-foreign-architectures | grep -q i386; then
+    echo "i386 architecture already enabled."
+else
+    dpkg --add-architecture i386
+    echo "i386 architecture enabled."
+fi
 
 
 echo
@@ -43,7 +45,22 @@ apt update
 echo
 echo "[INSTALL]"
 
-apt install -y steam
+if dpkg -s steam-installer >/dev/null 2>&1; then
+    echo "Steam already installed."
+else
+    apt install -y steam-installer
+fi
+
+
+echo
+echo "[VERIFY]"
+
+if dpkg -s steam-installer >/dev/null 2>&1; then
+    echo "Steam installation verified."
+else
+    echo "Steam installation failed."
+    exit 1
+fi
 
 
 echo

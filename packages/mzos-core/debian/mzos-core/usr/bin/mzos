@@ -63,7 +63,7 @@ case "${1}" in
         MODULE="/usr/lib/mzos/modules/health/check.sh"
 
         if [ -x "$MODULE" ]; then
-            exec "$MODULE"
+            exec "$MODULE" "$@"
         else
             echo "Health module is not installed."
             exit 1

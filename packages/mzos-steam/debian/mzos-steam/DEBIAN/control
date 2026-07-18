@@ -2,7 +2,7 @@ Package: mzos-steam
 Version: 0.1.0
 Architecture: all
 Maintainer: MzOS Team <w.oname.rss@gmail.com>
-Installed-Size: 12
+Installed-Size: 14
 Section: utils
 Priority: optional
 Description: Steam module for MzOS
