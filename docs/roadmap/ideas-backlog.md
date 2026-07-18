@@ -121,3 +121,24 @@ Conserver un socle commun :
 mzos-core
 
 et construire différentes éditions par assemblage de modules.
+
+---
+
+# IDÉE-008 — Vérification post-installation des modules
+
+Statut : Validé
+
+Objectif :
+Chaque module doit vérifier que l'installation a produit le résultat attendu.
+
+Exemple :
+
+Steam :
+- paquet installé ;
+- lanceur présent ;
+- environnement fonctionnel.
+
+Bénéfice :
+Éviter les installations déclarées réussies alors que le composant n'est pas utilisable.
+
+
