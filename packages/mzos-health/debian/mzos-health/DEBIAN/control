@@ -2,7 +2,7 @@ Package: mzos-health
 Version: 0.1.0
 Architecture: all
 Maintainer: MzOS Team <w.oname.rss@gmail.com>
-Installed-Size: 13
+Installed-Size: 15
 Section: utils
 Priority: optional
 Description: Health Check module for MzOS

@@ -1,0 +1,3 @@
+usr/lib/mzos/modules/steam/install.sh usr/lib/mzos/modules/steam
+usr/lib/mzos/modules/steam/status.sh usr/lib/mzos/modules/steam
+usr/lib/mzos/modules/steam/uninstall.sh usr/lib/mzos/modules/steam

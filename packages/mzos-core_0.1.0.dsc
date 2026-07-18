@@ -10,8 +10,8 @@ Build-Depends: debhelper-compat (= 13)
 Package-List:
  mzos-core deb utils optional arch=all
 Checksums-Sha1:
- 9fee55edd1b93dd9f5bb153d7586e971ea88bdeb 1336 mzos-core_0.1.0.tar.xz
+ 59e8f7ebf29ccdc355f3a4b1350b627b092c4270 1408 mzos-core_0.1.0.tar.xz
 Checksums-Sha256:
- 6e1764cd0bfcf872ad7565c5f7f37525637315749e0a7f22287b304a337d33c2 1336 mzos-core_0.1.0.tar.xz
+ 9ca1c04d71c5ed0b7f1d42802e38948cf37f2686764ba57e92660bc73487a39c 1408 mzos-core_0.1.0.tar.xz
 Files:
- a37a65bbcfd0db0ed43a7b86811fa1b9 1336 mzos-core_0.1.0.tar.xz
+ d765559c1f41ba4d8a6b69dd644e3cb4 1408 mzos-core_0.1.0.tar.xz

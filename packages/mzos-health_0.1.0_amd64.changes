@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release.
 Checksums-Sha1:
- c7074f9aad4c80627aef85209b219044d6c6dbed 532 mzos-health_0.1.0.dsc
- 361604761801ea9b5e0eaee6a3eba48637cdcc3c 1272 mzos-health_0.1.0.tar.xz
- 2730e75be910e42ae116ce232523759750af1477 1684 mzos-health_0.1.0_all.deb
- 2d616df83cc04099bd2de3e4d5a2895ddb0d8f0a 4777 mzos-health_0.1.0_amd64.buildinfo
+ 4162526e8351ce729d8883af7e781cecd2954f89 532 mzos-health_0.1.0.dsc
+ 17f170a5cea65b2826b07516d604773a6d4af763 1768 mzos-health_0.1.0.tar.xz
+ 3c5992706adfafde13c72edd03682aabcd3372ce 2228 mzos-health_0.1.0_all.deb
+ ece7456d0ce161ef40b53e39a7d4b83d4f106a18 4777 mzos-health_0.1.0_amd64.buildinfo
 Checksums-Sha256:
- dbd7df4e1b7138e3309ea04d99a298e89fde9020555dcea554abac5f5be27b8c 532 mzos-health_0.1.0.dsc
- 6180fb8787b52c51931e4a3041d2969e890bfb2f7aba705b2b7da917c201ec43 1272 mzos-health_0.1.0.tar.xz
- 29d4eaa39425d0ad0ce0e3bc22d28707d8579455b30302ccdcffb2b198165e09 1684 mzos-health_0.1.0_all.deb
- e662a526f132bb6ad34a767f12759d73a5a22a73275380b85ff0eb8877530e83 4777 mzos-health_0.1.0_amd64.buildinfo
+ 28b8e71e6adb44853292b85d4b28b486a2ea4176a931bc0a702569d011305a28 532 mzos-health_0.1.0.dsc
+ c48ced6473a17d1c898eee618b2ec05dd2691061dfd8dd7fd98175dc8989e4b9 1768 mzos-health_0.1.0.tar.xz
+ 6f5963953c1670ce9064a371a3e4ae70facfde84f7bbc523ca6eaf7eb181427f 2228 mzos-health_0.1.0_all.deb
+ ee4f4c105e5e8402cf71c6fff292f6bb76c71254b28391e30d608f8f1f8ffe4a 4777 mzos-health_0.1.0_amd64.buildinfo
 Files:
- 137270049984c31e76cbfef31d95a2a8 532 utils optional mzos-health_0.1.0.dsc
- 56c1dfbc95120c4f7085878d5603afbd 1272 utils optional mzos-health_0.1.0.tar.xz
- d36a7d025ecb334459b0a300fbeaf96d 1684 utils optional mzos-health_0.1.0_all.deb
- e2a66c8134b97289279f626e33dc68bf 4777 utils optional mzos-health_0.1.0_amd64.buildinfo
+ 1cad451e7188580b09dc03af5d5614b2 532 utils optional mzos-health_0.1.0.dsc
+ 6d756b6329b7c3058ca8f11bbb3e9702 1768 utils optional mzos-health_0.1.0.tar.xz
+ 256856be92f552ec99155659d72d0155 2228 utils optional mzos-health_0.1.0_all.deb
+ 9d3ff02158ca3a393ca75f57a38f6bc0 4777 utils optional mzos-health_0.1.0_amd64.buildinfo

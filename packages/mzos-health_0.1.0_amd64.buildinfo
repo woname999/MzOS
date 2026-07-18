@@ -4,17 +4,17 @@ Binary: mzos-health
 Architecture: all source
 Version: 0.1.0
 Checksums-Md5:
- 137270049984c31e76cbfef31d95a2a8 532 mzos-health_0.1.0.dsc
- d36a7d025ecb334459b0a300fbeaf96d 1684 mzos-health_0.1.0_all.deb
+ 1cad451e7188580b09dc03af5d5614b2 532 mzos-health_0.1.0.dsc
+ 256856be92f552ec99155659d72d0155 2228 mzos-health_0.1.0_all.deb
 Checksums-Sha1:
- c7074f9aad4c80627aef85209b219044d6c6dbed 532 mzos-health_0.1.0.dsc
- 2730e75be910e42ae116ce232523759750af1477 1684 mzos-health_0.1.0_all.deb
+ 4162526e8351ce729d8883af7e781cecd2954f89 532 mzos-health_0.1.0.dsc
+ 3c5992706adfafde13c72edd03682aabcd3372ce 2228 mzos-health_0.1.0_all.deb
 Checksums-Sha256:
- dbd7df4e1b7138e3309ea04d99a298e89fde9020555dcea554abac5f5be27b8c 532 mzos-health_0.1.0.dsc
- 29d4eaa39425d0ad0ce0e3bc22d28707d8579455b30302ccdcffb2b198165e09 1684 mzos-health_0.1.0_all.deb
+ 28b8e71e6adb44853292b85d4b28b486a2ea4176a931bc0a702569d011305a28 532 mzos-health_0.1.0.dsc
+ 6f5963953c1670ce9064a371a3e4ae70facfde84f7bbc523ca6eaf7eb181427f 2228 mzos-health_0.1.0_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 17 Jul 2026 20:28:27 +0200
+Build-Date: Sat, 18 Jul 2026 11:47:12 +0200
 Installed-Build-Depends:
  autoconf (= 2.72-3.1),
  automake (= 1:1.17-4),

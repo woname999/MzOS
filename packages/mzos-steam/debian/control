@@ -1,0 +1,12 @@
+Source: mzos-steam
+Section: utils
+Priority: optional
+Maintainer: MzOS Team <w.oname.rss@gmail.com>
+Standards-Version: 4.7.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: mzos-steam
+Architecture: all
+Depends: ${misc:Depends}
+Description: Steam module for MzOS
+ Steam installation and management module.

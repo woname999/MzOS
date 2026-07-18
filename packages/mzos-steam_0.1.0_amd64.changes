@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 18 Jul 2026 18:00:00 +0200
+Source: mzos-steam
+Binary: mzos-steam
+Architecture: source all
+Version: 0.1.0
+Distribution: unstable
+Urgency: medium
+Maintainer: MzOS Team <w.oname.rss@gmail.com>
+Changed-By: MzOS Team <w.oname.rss@gmail.com>
+Description:
+ mzos-steam - Steam module for MzOS
+Changes:
+ mzos-steam (0.1.0) unstable; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ ed20eff02e32eaf183063c7c38993bca5316209f 526 mzos-steam_0.1.0.dsc
+ e1cdb43606149b419a971c9ec75940997e65e2c6 1068 mzos-steam_0.1.0.tar.xz
+ f162b0e09ed4b190f4074b0bd653b329c477e918 1484 mzos-steam_0.1.0_all.deb
+ 592497d00d65d2093446ca915909004fb44463ba 4769 mzos-steam_0.1.0_amd64.buildinfo
+Checksums-Sha256:
+ 7878d329242e37ce8bc0d536a5f2bff3e83614273d41390678fca20c4c725dc5 526 mzos-steam_0.1.0.dsc
+ a2ef600cfb458308d5540ea6be7002f907e00f5d1cef806abd60df8a6eed00ad 1068 mzos-steam_0.1.0.tar.xz
+ f74312809124f134aa6f5bc70940b029ea59b32ed15e1e4ec95251ab9eace020 1484 mzos-steam_0.1.0_all.deb
+ 7a220e951fe21b75f35f113ce7891347f4a365b86f02426c33f278f0746dc4d8 4769 mzos-steam_0.1.0_amd64.buildinfo
+Files:
+ b61d7dca7fb8b1d88db3e128595342b9 526 utils optional mzos-steam_0.1.0.dsc
+ 0242aca00e572429aa75a8c6222b5cc2 1068 utils optional mzos-steam_0.1.0.tar.xz
+ bec860382244c1c73ea78dd7b90fe9b6 1484 utils optional mzos-steam_0.1.0_all.deb
+ 048a667e968cdd1bc64b718e4d034c59 4769 utils optional mzos-steam_0.1.0_amd64.buildinfo

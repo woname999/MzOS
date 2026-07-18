@@ -15,17 +15,17 @@ Changes:
  .
    * Initial release of MzOS core package.
 Checksums-Sha1:
- 958ce2a2f295d1b54e1c6e661ecd940bb446d53d 564 mzos-core_0.1.0.dsc
- 9fee55edd1b93dd9f5bb153d7586e971ea88bdeb 1336 mzos-core_0.1.0.tar.xz
- 8f1e21e9a8a21f1844ae898f0dce97827fb6717e 1752 mzos-core_0.1.0_all.deb
- 82f738d018e4a3a8102c39fa06711ac04a94c452 4761 mzos-core_0.1.0_amd64.buildinfo
+ 8d466b4cad75d268ab0787227056ede98b4b16b9 564 mzos-core_0.1.0.dsc
+ 59e8f7ebf29ccdc355f3a4b1350b627b092c4270 1408 mzos-core_0.1.0.tar.xz
+ d343f768c61b72ee5c8519e9b96275b8cc07ba39 1820 mzos-core_0.1.0_all.deb
+ 61ceef0edbd5f27b0a1543b07026557984a2f666 4761 mzos-core_0.1.0_amd64.buildinfo
 Checksums-Sha256:
- b356bdae15700dce50933d1ecce28931a1292184c59ac0f57c04dbcf2955a8dc 564 mzos-core_0.1.0.dsc
- 6e1764cd0bfcf872ad7565c5f7f37525637315749e0a7f22287b304a337d33c2 1336 mzos-core_0.1.0.tar.xz
- 94021a4493eaab6aba0516e7d0293b38e30e5ee9404e70ebd613fb4de306d550 1752 mzos-core_0.1.0_all.deb
- 181b685dcd5fd3d1922c2edb5e29868060f215eb5903739bed0bf588d4bc56e5 4761 mzos-core_0.1.0_amd64.buildinfo
+ 2261d864190a8b66b8b612f48135025f4c6f6a1342ca7ce9fc21057786a0a59f 564 mzos-core_0.1.0.dsc
+ 9ca1c04d71c5ed0b7f1d42802e38948cf37f2686764ba57e92660bc73487a39c 1408 mzos-core_0.1.0.tar.xz
+ 9c2aeaa798184f3ccd86847ffa6311993384cef58e4335fb825f2fc17a5131ae 1820 mzos-core_0.1.0_all.deb
+ d0c71ab08f3a85267a0af43850bfd068ecca93d015c02c3b8030e24ce26dc92c 4761 mzos-core_0.1.0_amd64.buildinfo
 Files:
- 5e465d62bce0fb457c2c67f64903e55d 564 utils optional mzos-core_0.1.0.dsc
- a37a65bbcfd0db0ed43a7b86811fa1b9 1336 utils optional mzos-core_0.1.0.tar.xz
- 03e40f9ef9364f113c6dd8f6b6aa7d64 1752 utils optional mzos-core_0.1.0_all.deb
- 5b7f5871fa4e82739c545f55ad137771 4761 utils optional mzos-core_0.1.0_amd64.buildinfo
+ a16f560bf41823653a0eecb595a751b2 564 utils optional mzos-core_0.1.0.dsc
+ d765559c1f41ba4d8a6b69dd644e3cb4 1408 utils optional mzos-core_0.1.0.tar.xz
+ aa4d7cdcf219516bcddd5e57f5f98a3b 1820 utils optional mzos-core_0.1.0_all.deb
+ 3babfdac3c8b6d995bb263b138a47db0 4761 utils optional mzos-core_0.1.0_amd64.buildinfo

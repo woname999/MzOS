@@ -19,37 +19,38 @@ show_info() {
     echo "Desktop : KDE Plasma"
 }
 
-show_health() {
-    echo "MzOS Health Check"
-    echo
-    echo "Status : Not implemented"
-}
-
-show_install() {
-    echo "MzOS Package Installer"
-    echo
-    echo "Status : Not implemented"
-}
-
-show_update() {
-    echo "MzOS Update System"
-    echo
-    echo "Status : Not implemented"
-}
-
 show_help() {
     echo "MzOS command line interface"
     echo
     echo "Usage:"
-    echo "  mzos version   Show version"
-    echo "  mzos info      Show system information"
-    echo "  mzos health    Run health check"
-    echo "  mzos install   Install component"
-    echo "  mzos update    Update system"
-    echo "  mzos help      Show help"
+    echo
+    echo "  mzos version              Show version"
+    echo "  mzos info                 Show system information"
+    echo "  mzos health               Run health check"
+    echo
+    echo "  mzos install <module>     Install module"
+    echo "  mzos status <module>      Module status"
+    echo "  mzos uninstall <module>   Uninstall module"
 }
 
+run_module() {
+
+    ACTION="$1"
+    MODULE="$2"
+
+    SCRIPT="/usr/lib/mzos/modules/${MODULE}/${ACTION}.sh"
+
+    if [ -x "$SCRIPT" ]; then
+        exec "$SCRIPT"
+    fi
+
+    echo "Error: module '$MODULE' does not provide action '$ACTION'."
+    exit 1
+}
+
+
 case "${1}" in
+
     version)
         show_version
         ;;
@@ -59,22 +60,24 @@ case "${1}" in
         ;;
 
     health)
-       MODULE="/usr/lib/mzos/modules/health/check.sh"
+        MODULE="/usr/lib/mzos/modules/health/check.sh"
 
-       if [ -x "$MODULE" ]; then
-           exec "$MODULE"
-       else
-           echo "Health module is not installed."
-           exit 1
-       fi
-       ;;
-
-    install)
-        show_install
+        if [ -x "$MODULE" ]; then
+            exec "$MODULE"
+        else
+            echo "Health module is not installed."
+            exit 1
+        fi
         ;;
 
-    update)
-        show_update
+    install|status|uninstall)
+
+        if [ -z "$2" ]; then
+            echo "Usage: mzos $1 <module>"
+            exit 1
+        fi
+
+        run_module "$1" "$2"
         ;;
 
     help|"")
@@ -87,4 +90,5 @@ case "${1}" in
         show_help
         exit 1
         ;;
+
 esac
