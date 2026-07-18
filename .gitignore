@@ -1,0 +1,6 @@
+# Debian build artifacts
+*.buildinfo
+*.changes
+*.deb
+*.dsc
+*.tar.xz
