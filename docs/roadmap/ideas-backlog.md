@@ -176,3 +176,47 @@ mzos benchmark
 ou
 
 mzos gaming-test
+
+---
+
+# IDÉE-0010 — Module install idempotent avec détection préalable
+
+Statut : Validé
+
+Objectif :
+Éviter une réinstallation inutile et afficher l'état avant action.
+
+Principe :
+Avant installation, un module vérifie si le composant est déjà présent.
+
+Exemple :
+
+Wine :
+- détecte la version installée ;
+- indique que l'environnement est déjà prêt ;
+- évite une opération inutile.
+
+Bénéfices :
+- installation plus rapide ;
+- meilleure lisibilité ;
+- comportement cohérent entre modules.
+
+---
+
+# IDÉE-011 — Désinstallation sécurisée des modules
+
+Statut : Validé
+
+Objectif :
+Avant suppression, vérifier les dépendances MzOS et Debian afin d'éviter de casser l'environnement.
+
+Principe :
+Une désinstallation doit vérifier :
+- les autres modules MzOS dépendants ;
+- les dépendances Debian utilisées ;
+- les composants partagés.
+
+Bénéfices :
+- suppression plus sûre ;
+- meilleure gestion des modules liés ;
+- préparation aux éditions MzOS multiples.
