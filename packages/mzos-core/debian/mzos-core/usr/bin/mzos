@@ -58,16 +58,17 @@ case "${1}" in
         show_info
         ;;
 
-    health)
-       MODULE="/usr/lib/mzos/modules/health/check.sh"
+health)
+   MODULE="/usr/lib/mzos/modules/health/check.sh"
 
-       if [ -x "$MODULE" ]; then
-           exec "$MODULE"
-       else
-           echo "Health module is not installed."
-           exit 1
-       fi
-       ;;
+   if [ -x "$MODULE" ]; then
+       shift
+       exec "$MODULE" "$@"
+   else
+       echo "Health module is not installed."
+       exit 1
+   fi
+   ;;
 
     install)
         show_install
