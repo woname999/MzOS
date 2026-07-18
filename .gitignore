@@ -1,13 +1,17 @@
 # Debian build artifacts
 *.buildinfo
+*.build
 *.changes
 *.deb
 *.dsc
 *.tar.xz
 
-# Debian build directories
-debian/.debhelper/
-debian/files
-debian/*/DEBIAN/
-debian/*.substvars
-debian/debhelper-build-stamp
+# Debian generated files
+**/.debhelper/
+**/debian/files
+**/debian/*/DEBIAN/
+**/debian/*/usr/
+**/debian/*/usr/share/
+**/debian/*.substvars
+**/debian/debhelper-build-stamp
+**/debian/mzos-*/
